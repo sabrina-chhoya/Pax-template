@@ -1,428 +1,461 @@
-    /* ===========
+/* ===========
 Google Fonts
 ============== */
-    
-    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
-    /* ===========
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+/* ===========
 Global CSS
 ============== */
-    
-    body {
-        font-family: 'Roboto', sans-serif;
-        color: #0149a1;
-        margin: 0;
-        padding: 0;
-    }
-    
-    a {
-        text-decoration: none;
-    }
-    
-    .mb-75 {
-        margin-bottom: 75px;
-    }
-    
-    .m-75 {
-        margin: 75px 0;
-    }
-    /*=============
- Header Section 
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #0149a1;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.mb-75 {
+    margin-bottom: 75px;
+}
+
+.m-75 {
+    margin: 75px 0;
+}
+/*=============
+Header Section 
 ================*/
-    
-    .header {
-        padding-top: 10px 0;
-    }
-    
-    .navbar-light .navbar-brand {
-        color: #0149a1;
-        font-size: 26px;
-        margin: 0;
-        /* padding-top: 200px; */
-    }
-    
-    .navbar-light .navbar-brand span {
-        font-weight: 700;
-    }
-    
-    .navbar-light .navbar-nav .nav-link.active,
-    .navbar-light .navbar-nav .show>.nav-link {
-        color: #5d6981;
-        font-size: 15px;
-        padding: 2px 19px;
-        border: 1px solid #5d6981;
-        border-radius: 20px;
-        margin: 5px 0;
-    }
-    
-    .navbar-light .navbar-nav .nav-link {
-        color: #5d6981;
-        /* padding: 8px 19px; */
-    }
-    
-    .navbar-light .navbar-nav .nav-link .fa-facebook {
-        border: 1px solid #5d6981;
-        padding: 4px 6px;
-        font-size: 17px;
-        border-radius: 13px;
-        color: #3c5a99;
-        border-block-color: #3c5a99;
-    }
-    
-    .navbar-light .navbar-nav .nav-link .fa-twitter {
-        border: 1px solid #5d6981;
-        padding: 4px 6px;
-        border-radius: 30px;
-        font-size: 17px;
-        color: #28aae1;
-        border-block-color: #28aae1;
-    }
-    /*=================
- Service-top Section 
+
+.header {
+    padding-top: 10px 0;
+}
+
+.navbar-light .navbar-brand {
+    color: #0149a1;
+    font-size: 26px;
+    margin: 0;
+    /* padding-top: 200px; */
+}
+
+.navbar-light .navbar-brand span {
+    font-weight: 700;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #5d6981;
+    font-size: 15px;
+    padding: 2px 19px;
+    border: 1px solid #5d6981;
+    border-radius: 20px;
+    margin: 5px 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #5d6981;
+    /* padding: 8px 19px; */
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #5d6981;
+    font-size: 15px;
+    padding: 2px 19px;
+    border: 1px solid #5d6981;
+    border-radius: 20px;
+    margin: 5px 0;
+}
+
+.navbar-light .navbar-nav .nav-link .fa-facebook {
+    border: 1px solid #5d6981;
+    padding: 4px 6px;
+    font-size: 17px;
+    border-radius: 13px;
+    color: #3c5a99;
+    border-block-color: #3c5a99;
+}
+.navbar-light .navbar-nav .nav-link .fa-facebook:hover {
+    background: #5d6981;
+    color: #fff
+}
+
+.navbar-light .navbar-nav .nav-link .fa-twitter {
+    border: 1px solid #5d6981;
+    padding: 4px 6px;
+    border-radius: 30px;
+    font-size: 17px;
+    color: #28aae1;
+    border-block-color: #28aae1;
+}
+.navbar-light .navbar-nav .nav-link .fa-twitter:hover {
+    background: #5d6981;
+    color: #fff
+}
+/*=================
+Service-top Section 
 =====================*/
-    
-    .service-top {
-        background: url(../img/service-background.png) no-repeat center top;
-        background: linear-gradient(#f6f7f8 #e6e8ec #f2f3f5);
-        background-size: cover;
-    }
-    
-    .service-top h1 {
-        font-size: 60px;
-        font-weight: 700;
-        padding-top: 125px;
+
+.service-top {
+    background: url(../img/service-background.png) no-repeat center top;
+    background: linear-gradient(#f6f7f8 #e6e8ec #f2f3f5);
+    background-size: cover;
+}
+
+.service-top h1 {
+    font-size: 60px;
+    font-weight: 700;
+    padding-top: 125px;
+    text-align: center;
+    margin: 0;
+}
+
+.service-top p {
+    color: #7c8ca0;
+    font-size: 27px;
+    padding-bottom: 75px;
+    text-align: center;
+    font-weight: 300;
+    line-height: 30px;
+    margin: 0;
+}
+
+.prc-btn {
+    background: #ff2d55;
+    color: #ffff;
+    padding: 15px 55px;
+    border-radius: 28px;
+    width: 209px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 75px;
+}
+.prc-btn:hover {
+    background: #0149a1;
+    color: #ffff;
+}
+
+.macbook-screen .screen-img {
+    position: relative;
+    width: 880px;
+    margin: 13px 213px 134px;
+}
+
+.macbook-screen .play-btn {
+    position: absolute;
+    /* bottom: 0; */
+    color: #0149a1;
+    margin: -345px 592px;
+    background: #fff;
+    border-radius: 28px;
+    padding: 11px 27px;
+    font-weight: 700;
+}
+
+.play-btn .fa-play {
+    color: #6785bb;
+    padding-left: 10px;
+}
+/*=================
+Service-body Section 
+=====================*/
+
+.service-body {
+    background: url(../img/service-body.png);
+    padding: 0;
+    text-align: center;
+    padding: 0px 0 70px;
+    color: #5d6981;
+}
+
+.service-body img {
+    padding-bottom: 40px;
+    width: 140px;
+}
+
+.service-body h4 {
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.service-body p {
+    padding: 0px 19px;
+}
+/*=================
+Creativity Section 
+=====================*/
+
+.creativity {
+    background: url(../img/creativity.png) no-repeat center top;
+    background-size: covers;
+    padding: 379px 0 177px;
+}
+
+.creativity .prc-btn {
+    border: 1px solid #0149a1;
+    background: #0149a1;
+    color: #ffff;
+    display: block;
+    text-align: center;
+    margin: 0px auto;
+    border-radius: 45px;
+    padding: 13px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.creativity .prc-btn:hover {
+    background: #ff2d55;
+    border: none;
+}
+/*=================
+How-we-Work Section 
+=====================*/
+
+.hw-work {
+    background: #0149a1;
+    color: #fff;
+    padding: 95px 0 70px;
+}
+
+.hw-head {
+    text-align: center;
+    padding-bottom: 75px;
+}
+
+.hw-head h1 {
+    font-size: 55px;
+    margin: 0;
+}
+
+.hw-head p {
+    color: #5483bb;
+    font-size: 29px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.hw-body {
+    margin-bottom: 50px;
+}
+
+.hw-body p {
+    padding-right: 20%;
+    text-align: left;
+}
+
+.hw-work .prc-btn {
+    border: 1px solid #ffffff;
+    background: #ffffff;
+    color: #0149a1;
+    text-align: center;
+    display: block;
+    margin: 0px auto;
+    border-radius: 45px;
+    padding: 13px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.hw-work .prc-btn:hover {
+    background: #ff2d55;
+    border: none;
+    color: #fff;
+}
+/*=================
+opinion Section 
+=====================*/
+
+.opinion {
+    background: #ffffff;
+}
+
+.owl-carousel .owl-item img {
+    width: 100px;
+    display: block;
+    margin: 85px auto;
+    margin-bottom: 27px;
+}
+
+.owl-carousel p {
+    color: #7c8ca0;
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+    padding: 0 30%;
+    font-weight: 300;
+}
+
+.owl-carousel sub {
+    text-align: center;
+    display: block;
+    color: #7c8ca0;
+    padding-bottom: 110px;
+}
+
+.owl-carousel sub a {
+    text-decoration: underline;
+    color: #7c8ca0;
+}
+
+.owl-prev {
+    position: absolute;
+    left: 0;
+    top: 47%;
+    font-size: 31px !important;
+    border: 1px solid #7c8ca0 !important;
+    border-radius: 27px !important;
+    color: #7c8ca0 !important;
+    font-weight: 300 !important;
+    width: 50px;
+}
+
+.owl-theme .owl-nav [class*='owl-']:hover {
+    background: #ff2d55;
+}
+
+.owl-next {
+    position: absolute;
+    right: 0;
+    top: 47%;
+    font-size: 31px !important;
+    border: 1px solid #7c8ca0 !important;
+    border-radius: 27px !important;
+    color: #7c8ca0 !important;
+    font-weight: 300 !important;
+    width: 50px;
+}
+
+.owl-dot {
+    height: 25px;
+    border: 1px solid #7c8ca0;
+    border-radius: 48%;
+    width: 26px;
+    color: #7c8ca0;
+}
+/*==============
+Team Section 
+===============*/
+
+.team {
+    background: #edeff1;
+}
+
+.team h1 {
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+}
+
+.team p {
+    color: #7c8ca0;
+    font-size: 27px;
+    text-align: center;
+    font-weight: 300;
+    line-height: 30px;
+    margin: 0;
+}
+
+.team-member img {
+    display: block;
+    margin: 0 auto;
+    width: 130px;
+}
+
+.team-member h4 {
+    text-align: center;
+    margin: 0;
+    padding: 36px 0 12px;
+    color: #7c8ca0;
+    font-weight: 700;
+}
+
+.team-member p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 28px;
+}
+
+.team .prc-btn {
+    border: 1px solid #ff2d55;
+    background: #ff2d55;
+    color: #ffff;
+    display: block;
+    text-align: center;
+    border-radius: 45px;
+    padding: 13px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 24px;
+    margin-top: 75px;
+}
+
+.team .prc-btn:hover {
+    background: #5483bb;
+    border: none;
+}
+/*==============
+google map Section 
+===============*/
+/*==============
+Footer Section 
+===============*/
+
+.footer {
+    background: #0149a1;
+    color: #ffffff;
+}
+
+.footer h6 {
+    padding: 25% 30%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.footer p {
+    text-align: center;
+    font-size: 13px;
+    font-weight: 200;
+    padding: 0 30% 8%;
+}
+
+.footer p span {
+    font-weight: 600;
+}
+
+/* =============
+Media Query
+================= */
+
+@media(min-width:320px) and (max-width:576px) {
+    .navbar-light .navbar-nav .nav-link {
         text-align: center;
-        margin: 0;
     }
-    
-    .service-top p {
-        color: #7c8ca0;
-        font-size: 27px;
-        padding-bottom: 75px;
-        text-align: center;
-        font-weight: 300;
-        line-height: 30px;
-        margin: 0;
-    }
-    
-    .prc-btn {
-        background: #ff2d55;
-        color: #ffff;
-        padding: 15px 55px;
-        border-radius: 28px;
-        width: 209px;
-        display: block;
-        margin: 0 auto;
-        text-align: center;
-        margin-bottom: 75px;
-    }
-    
     .macbook-screen .screen-img {
         position: relative;
-        width: 880px;
-        margin: 13px 213px 134px;
+        width: 91%;
+        margin: 5px 23px 134px;
     }
-    
     .macbook-screen .play-btn {
         position: absolute;
-        /* bottom: 0; */
         color: #0149a1;
-        margin: -345px 592px;
-        background: #fff;
         border-radius: 28px;
-        padding: 11px 27px;
         font-weight: 700;
+        padding: 12px 44px;
+        margin: -62% 31%;
     }
-    
-    .play-btn .fa-play {
-        color: #6785bb;
-        padding-left: 10px;
-    }
-    /*=================
- Service-body Section 
-=====================*/
-    
-    .service-body {
-        background: url(../img/service-body.png);
-        padding: 0;
-        text-align: center;
-        padding: 0px 0 70px;
-        color: #5d6981;
-    }
-    
-    .service-body img {
-        padding-bottom: 40px;
-        width: 140px;
-    }
-    
-    .service-body h4 {
-        margin: 0;
-        padding-bottom: 20px;
-    }
-    
-    .service-body p {
-        padding: 0px 19px;
-    }
-    /*=================
- Creativity Section 
-=====================*/
-    
-    .creativity {
-        background: url(../img/creativity.png) no-repeat center top;
-        background-size: covers;
-        padding: 379px 0 177px;
-    }
-    
-    .creativity .prc-btn {
-        border: 1px solid #0149a1;
-        background: #0149a1;
-        color: #ffff;
-        display: block;
-        text-align: center;
-        margin: 0px auto;
-        border-radius: 45px;
-        padding: 13px;
-        font-size: 14px;
-        font-weight: 600;
-    }
-    
-    .prc-btn:hover {
-        background: #ff2d55;
-    }
-    /*=================
- How-we-Work Section 
-=====================*/
-    
-    .hw-work {
-        background: #0149a1;
-        color: #fff;
-        padding: 95px 0 70px;
-    }
-    
-    .hw-head {
-        text-align: center;
-        padding-bottom: 75px;
-    }
-    
-    .hw-head h1 {
-        font-size: 55px;
-        margin: 0;
-    }
-    
-    .hw-head p {
-        color: #5483bb;
-        font-size: 29px;
-        font-weight: 300;
-        margin: 0;
-    }
-    
-    .hw-body {
-        margin-bottom: 50px;
-    }
-    
     .hw-body p {
-        padding-right: 20%;
-        text-align: left;
+        padding-right: 0%;
     }
-    
-    .hw-work .prc-btn {
-        border: 1px solid #ffffff;
-        background: #ffffff;
-        color: #0149a1;
-        text-align: center;
-        display: block;
-        margin: 0px auto;
-        border-radius: 45px;
-        padding: 13px;
-        font-size: 14px;
-        font-weight: 600;
-    }
-    /*=================
- opinion Section 
-=====================*/
-    
-    .opinion {
-        background: #ffffff;
-    }
-    
-    .owl-carousel .owl-item img {
-        width: 100px;
-        display: block;
-        margin: 85px auto;
-        margin-bottom: 27px;
-    }
-    
-    .owl-carousel p {
-        color: #7c8ca0;
-        font-size: 20px;
-        text-align: center;
-        font-style: italic;
-        padding: 0 30%;
-        font-weight: 300;
-    }
-    
-    .owl-carousel sub {
-        text-align: center;
-        display: block;
-        color: #7c8ca0;
-        padding-bottom: 110px;
-    }
-    
-    .owl-carousel sub a {
-        text-decoration: underline;
-        color: #7c8ca0;
-    }
-    
-    .owl-prev {
-        position: absolute;
-        left: 0;
-        top: 47%;
-        font-size: 31px !important;
-        border: 1px solid #7c8ca0 !important;
-        border-radius: 27px !important;
-        color: #7c8ca0 !important;
-        font-weight: 300 !important;
-        width: 50px;
-    }
-    
-    .owl-theme .owl-nav [class*='owl-']:hover {
-        background: #ff2d55;
-    }
-    
-    .owl-next {
-        position: absolute;
-        right: 0;
-        top: 47%;
-        font-size: 31px !important;
-        border: 1px solid #7c8ca0 !important;
-        border-radius: 27px !important;
-        color: #7c8ca0 !important;
-        font-weight: 300 !important;
-        width: 50px;
-    }
-    
-    .owl-dot {
-        height: 25px;
-        border: 1px solid #7c8ca0;
-        border-radius: 48%;
-        width: 26px;
-        color: #7c8ca0;
-    }
-    /*==============
- Team Section 
-===============*/
-    
-    .team {
-        background: #edeff1;
-    }
-    
-    .team h1 {
-        font-size: 60px;
-        font-weight: 700;
-        text-align: center;
-        margin: 0;
-    }
-    
-    .team p {
-        color: #7c8ca0;
-        font-size: 27px;
-        text-align: center;
-        font-weight: 300;
-        line-height: 30px;
-        margin: 0;
-    }
-    
-    .team-member img {
-        display: block;
-        margin: 0 auto;
-        width: 130px;
-    }
-    
-    .team-member h4 {
-        text-align: center;
-        margin: 0;
-        padding: 36px 0 12px;
-        color: #7c8ca0;
-        font-weight: 700;
-    }
-    
-    .team-member p {
-        text-align: center;
-        font-size: 16px;
-        font-weight: 400;
-        padding: 0 28px;
-    }
-    
-    .team .prc-btn {
-        border: 1px solid #ff2d55;
-        background: #ff2d55;
-        color: #ffff;
-        display: block;
-        text-align: center;
-        border-radius: 45px;
-        padding: 13px;
-        font-size: 14px;
-        font-weight: 600;
-        margin-bottom: 24px;
-        margin-top: 75px;
-    }
-    /*==============
- google map Section 
-===============*/
-    /*==============
- Footer Section 
-===============*/
-    
-    .footer {
-        background: #0149a1;
-        color: #ffffff;
-    }
-    
     .footer h6 {
-        padding: 25% 30%;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 30px;
-    }
-    
-    .footer p {
+        padding: 9% 25% 7%;
         text-align: center;
-        font-size: 13px;
-        font-weight: 200;
-        padding: 0 30% 8%;
     }
-    
-    .footer p span {
-        font-weight: 600;
+    .footer p {
+        padding: 15% 0% 10%;
     }
-    /* =============
-    Media Query
-    ================= */
-    
-    @media(min-width:320px) and (max-width:576px) {
-        .navbar-light .navbar-nav .nav-link {
-            text-align: center;
-        }
-        .macbook-screen .screen-img {
-            position: relative;
-            width: 91%;
-            margin: 5px 23px 134px;
-        }
-        .macbook-screen .play-btn {
-            position: absolute;
-            color: #0149a1;
-            border-radius: 28px;
-            font-weight: 700;
-            padding: 12px 44px;
-            margin: -62% 31%;
-        }
-        .hw-body p {
-            padding-right: 0%;
-        }
-        .footer h6 {
-            padding: 9% 25% 7%;
-            text-align: center;
-        }
-        .footer p {
-            padding: 15% 0% 10%;
-        }
-    }
+}
